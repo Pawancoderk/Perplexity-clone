@@ -1,13 +1,12 @@
 
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Chatbox from "./_component/Chatbox";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold">Welcome to My Page</h1>
-      <Button  variant="outline"  >Learn</Button>
-    
+    <div className="w-full">
+     <Chatbox/>
     </div>
   );
 }
